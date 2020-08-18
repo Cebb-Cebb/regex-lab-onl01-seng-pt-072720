@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-   if phone.scan(/\d{10}+[^a-zA-Z]/)
+   if word.scan(/\a{10}+[^a-zA-Z]/)
     true
   else
     false
