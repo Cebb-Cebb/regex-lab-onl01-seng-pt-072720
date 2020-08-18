@@ -1,12 +1,7 @@
 def starts_with_a_vowel?(word)
-   {
+   word{
     return ['a', 'e', 'i', 'o', 'u'].indexOf(s[0].toLowerCase()) !== -1
 }
-    true
-  else
-    false
-end 
-    
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
