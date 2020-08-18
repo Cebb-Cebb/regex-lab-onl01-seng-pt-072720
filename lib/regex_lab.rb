@@ -1,11 +1,9 @@
 def starts_with_a_vowel?(word)
-  string =
    if word.match(/A[aeiou]/i()
     true
   else
     false
   end 
-end 
 
     
 end
