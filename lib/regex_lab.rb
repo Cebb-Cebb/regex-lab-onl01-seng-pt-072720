@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
-  vowels= word.scan(/\A+[aeiou]/)
-  vowels.each do 
+  if word.scan(/\A+[aeiou]/)
+  
     
 end
 
