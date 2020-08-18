@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-   if word.scan(/\a{10}+[^a-zA-Z]/)
+   if word.match(/\a[^a-z]/)
     true
   else
     false
